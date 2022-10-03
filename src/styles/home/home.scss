@@ -1,0 +1,73 @@
+@import '../global';
+
+/*==================== 
+    Home    
+====================*/
+.home {
+    padding: 4rem 0;
+    background-image: url('../../../public/home-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        text-align: center;
+        span, h1, p {
+            color: $white;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        p {
+            margin-top: .5rem;
+            font-weight: 400;
+        }
+        .grid-home {
+            margin-top: 3.5rem;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .home {
+        .container {
+            .grid-home {
+                grid-template-columns: auto;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .home {
+        .container {
+            p {
+                margin-top: 1.25rem;
+            }
+            .grid-home {
+                grid-template-columns: auto auto auto auto;
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .home {
+        .container {
+            .grid-home {
+                grid-template-columns: auto auto auto auto;
+                gap: 2.5rem;
+            }
+        }
+    }
+}
+
+
+/*==================== 
+    
+====================*/
+/*========== # ==========*/
+/*===== # =====*/
