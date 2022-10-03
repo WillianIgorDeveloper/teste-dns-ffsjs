@@ -1,4 +1,4 @@
-<h1 alighn='center' >Teste - Landing Page</h1>
+<h1 align="center" >Teste - Landing Page</h1>
 <p>Teste - Landing Page | Site criado para o curso "Formação Full Stack Java Script"</p>
 
 <h2>Demonstração</h2>
